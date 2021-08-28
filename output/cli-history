@@ -1,0 +1,8 @@
+
+
+<<< Recorded commands on Mon Aug 09 2021 22:55:35 GMT+0530 (India Standard Time)
+I.see('Version', '//body/div[@id=\'footer\']/span[1]')
+I.getText('//body/div[@id=\'footer\']/span[1]')
+I.getText('//body/div[@id=\'footer\']/span[1]')
+
+I.executeScript(function () {document.querySelector("body > app-my-app > div.wrapper > app-footer-cmp > footer > div.leftPlace")});
